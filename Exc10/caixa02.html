@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping TAG</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: darkgrey;
+            margin: 1px;
+        }
+        header{
+            background-color: gray;
+            padding: 10px;
+            margin: 10px;
+        }
+        article{
+            background-color: whitesmoke;
+        }
+        article > aside{
+            background-color: darkcyan;
+        }
+        main{
+            background-color: gray;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            margin: 10px;
+            padding: 10px;
+        }
+        nav{
+            background-color:brown;
+            box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.466);
+        }
+        h1{
+            box-shadow: 1px 1px 1px black;
+        }
+        main#bola {
+            height: 100px;
+            width: 100px;
+            margin:10px;
+            background-color: white;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <h2>Noticia sobre o Brasil</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure culpa perspiciatis, saepe omnis id consectetur animi cum deserunt inventore nesciunt at eaque explicabo veniam beatae iusto sequi et, nemo quam?</p>
+            <aside>
+                <p>Artigo escrito por ....</p>
+            </aside>
+        </section>
+        <section id="noticia"></section>
+    </main>
+    <footer>
+        Desenvolvido pelo Biel
+    </footer>
+    <main id="bola">
+        
+    </main>
+</body>
+</html>

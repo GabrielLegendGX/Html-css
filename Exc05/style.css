@@ -1,0 +1,31 @@
+@charset "UTF-8";
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: linear-gradient(to right, #02735e, #038C3E);
+}
+
+h1{
+    color: #034159;
+    text-align: center;
+    text-shadow: 1px 1px 0px #03415991;
+}
+
+h2{
+    color: #025951;
+}
+
+main{
+    background-color: white;
+    width: 600px;  /*Deixa só uma parte da cor que pedi*/
+    padding: 10px; /*Da uma espaçada*/
+    margin: auto; /*Centraliza tipo o center*/
+    border-radius: 10px; /*Da uma arrendondada nas pontas*/
+    box-shadow: 5px 5px 15px rgba(15, 192, 133, 0.486); /*Coloca a sombra no texto, os pxs são os tamanhos*/ 
+}
+
+p {
+    text-align: justify; /*Só para deixar as letras bonitas */
+}
