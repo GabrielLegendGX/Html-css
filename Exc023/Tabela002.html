@@ -16,6 +16,7 @@
         table{
             width: 500px;
             border-collapse: collapse;
+            position: absolute;
         }
         thead,tfoot{
             background-color: gray;
@@ -30,6 +31,17 @@
             padding: 10px;
             background-color: lightgray;
         }
+
+        tbody > tr:nth-child(2n-1){
+            background-color: lightgrey;
+        }
+
+        thead{
+            position: sticky;
+            top: -1px;
+            background-color: gray;
+        }
+
     </style>
 </head>
 <body>
